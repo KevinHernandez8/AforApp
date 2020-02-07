@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="7dp"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".CategoriaActivity">
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/seleccionarCategoria"
+        android:textAlignment="center"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+
+    <Button
+        android:id="@+id/btnVolumenNoMotorizado"
+        android:layout_width="390dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="@string/volumenNoMotorizado"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btnVolumenMotorizado"
+        android:layout_width="390dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="@string/volumenMotorizado"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btnOcupacionTPC"
+        android:layout_width="390dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="@string/ocupacionTPC"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btnOcupacionTaxi"
+        android:layout_width="390dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="@string/ocupacionTaxi"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btnVelocidad"
+        android:layout_width="390dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:enabled="true"
+        android:text="@string/velocidad"
+        android:textAllCaps="false" />
+
+</LinearLayout>

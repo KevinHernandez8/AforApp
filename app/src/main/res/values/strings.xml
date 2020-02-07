@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">AforApp</string>
+    <string name="version">Version 1.0</string>
+    <string name="ubicacion">Ubicación</string>
+    <string name="acceso">Acceso</string>
+    <string name="aforador">Aforador</string>
+    <string name="ingresar">Ingresar</string>
+    <string name="info"><u>Información sobre la aplicación</u></string>
+
+    <string name="info_title">Información sobre la aplicación</string>
+    <string name="info_content"><b>AforApp</b> es una aplicación desarrollada por
+        <b>Kevin Alejandro Hernández</b> para la Universidad de Ibagué - Programa de Ingeniería Civil.
+        \n\n<b>Contacto: </b>kevin.hernandezr8@gmail.com</string>
+
+    <string name="categoria">Categoría</string>
+    <string name="seleccionarCategoria">Selecciona la categoría a registrar</string>
+    <string name="volumenNoMotorizado">Volumen No Motorizado</string>
+    <string name="volumenMotorizado">Volumen Motorizado</string>
+    <string name="ocupacionTPC">Ocupación TPC</string>
+    <string name="ocupacionTaxi">Ocupación Taxi</string>
+    <string name="velocidad">Velocidad</string>
+    <string name="bicicleta">Bicicleta</string>
+
+    <string name="peatones">Peatones</string>
+    <string name="ciclistas">Ciclistas</string>
+    <string name="femenino">Femenino</string>
+    <string name="masculino">Masculino</string>
+    <string name="nino">Niño</string>
+    <string name="adulto">Adulto</string>
+    <string name="adultoMayor">Adulto mayor</string>
+
+    <string name="nina">Niña</string>
+    <string name="adulta">Adulta</string>
+    <string name="adultaMayor">Adulta mayor</string>
+
+    <string name="movilidadCondicionada">Movilidad condicionada</string>
+
+    <string name="tpc">TPC</string>
+    <string name="taxi">Taxi</string>
+    <string name="otros">Otros</string>
+    <string name="moto">Moto</string>
+    <string name="auto">Auto</string>
+    <string name="bus">Bus</string>
+    <string name="busEscolar">Bus - Escolar</string>
+    <string name="busOtro">Bus - Otro</string>
+    <string name="camion">Camión</string>
+
+    <string name="hora">Hora</string>
+    <string name="ruta">Ruta</string>
+    <string name="tipoVehiculo">Tipo de vehículo</string>
+    <string name="minibus">Minubus</string>
+    <string name="buseta">Buseta</string>
+    <string name="buseton">Busetón</string>
+    <string name="nivelOcupacion">Nivel de ocupación</string>
+    <string name="a">A <i>(Casi vacío)</i></string>
+    <string name="b">B <i>(Semivacío)</i></string>
+    <string name="c">C <i>(Algunos de pie)</i></string>
+    <string name="e">E <i>(Lleno)</i></string>
+    <string name="f">F <i>(Pasajeros colgando)</i></string>
+    <string name="registar">Registrar</string>
+
+    <string name="horario">Horario</string>
+    <string name="ocupacion0">0 <i>(Taxi libre)</i></string>
+    <string name="ocupacion1">1</string>
+    <string name="ocupacion2">2</string>
+    <string name="ocupacion3">3</string>
+    <string name="ocupacion4">4+ <i>(4 pasajeros o más)</i></string>
+</resources>

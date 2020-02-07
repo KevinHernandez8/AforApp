@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2020. Aplicación desarrollada por Kevin Alejandro Hernández Rodríguez.
+  ~ Ingeniero de sistemas - Universidad de Ibagué - Colombia
+  ~ E-Mail: kevin.hernandezr8@gmail.com
+  -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".VelocidadActivity">
+
+    <TextView
+        android:id="@+id/timerValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="40sp"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:text="00:000" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/btnIniciar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/play_button" />
+
+        <ImageButton
+            android:id="@+id/btnDetener"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:focusable="true"
+            app:srcCompat="@drawable/stop_button" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView48"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/textView43"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tipoVehiculo"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textStyle="bold" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupTipoVelocidad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/radioAuto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/auto"
+            android:textAlignment="textStart" />
+
+        <RadioButton
+            android:id="@+id/radioMoto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/moto"
+            android:textAlignment="textStart" />
+
+        <RadioButton
+            android:id="@+id/radioBus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/bus"
+            android:textAlignment="textStart" />
+
+        <RadioButton
+            android:id="@+id/radioTaxi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/taxi"
+            android:textAlignment="textStart" />
+
+        <RadioButton
+            android:id="@+id/radioBici"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/bicicleta"
+            android:textAlignment="textStart" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textView44"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnRegistrarVelocidad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/registar"
+        android:textAllCaps="false" />
+</LinearLayout>

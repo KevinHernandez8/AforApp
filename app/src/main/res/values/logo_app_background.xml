@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2020. Aplicación desarrollada por Kevin Alejandro Hernández Rodríguez.
+  ~ Ingeniero de sistemas - Universidad de Ibagué - Colombia
+  ~ E-Mail: kevin.hernandezr8@gmail.com
+  -->
+
+<resources>
+    <color name="logo_app_background">#003F7C</color>
+</resources>
