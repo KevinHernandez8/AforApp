@@ -66,7 +66,7 @@ public class Servicios {
         RetryPolicy retryPolicy = new DefaultRetryPolicy(socketTimeOut, 0, DefaultRetryPolicy.DEFAULT_BACKOFF_MULT) ;
         request.setRetryPolicy(retryPolicy);
 
-        RequestQueue queue = Volley.newRequestQueue(context);
+        final RequestQueue queue = Volley.newRequestQueue(context);
 
         queue.add(request);
     }

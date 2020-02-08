@@ -349,6 +349,10 @@ public class VolumenNoMotorizadoActivity extends AppCompatActivity implements Vi
      * Método que envía el HTTP Request para añadir filas a la hoja de calculo en Drive.
      */
     private void registrar() {
+        if(horario == null) {
+            Toast.makeText(this, "Espera un poco, un poquito más.", Toast.LENGTH_LONG).show();
+            return;
+        }
         Map mapa = obtenerDatos();
         Servicios.enviarRequest(VolumenNoMotorizadoActivity.this, mapa);
         reiniciar();
